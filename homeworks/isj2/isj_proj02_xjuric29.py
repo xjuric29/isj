@@ -36,7 +36,7 @@ def fourth_task():
     udubutubudu = 'u dubu tu budu.'
 
     # the udubutubudu string without the last character, backwards
-    backward_except_last = ''  # vase reseni
+    backward_except_last = udubutubudu[-2::-1]  # vase reseni
     # test
     return backward_except_last == 'udub ut ubud u'
 
