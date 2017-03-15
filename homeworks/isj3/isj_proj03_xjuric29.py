@@ -13,7 +13,7 @@ def first_task():
 
 def second_task():
     word2vect = {'king': [3, 1], 'queen': [6, 3], 'uncle': [4, 3], 'aunt': [8, 9]}
-    vect2word = {tuple (v): k for v, k in zip(word2vect.values (), word2vect.keys ())} # or list (word2vect.values ())  # vase reseni
+    vect2word = {tuple (v): k for v, k in zip(word2vect.values (), word2vect.keys ())} # or list (word3vect.values ())  # vase reseni
     return sum(k[1] for k in vect2word) == 16
 
 
@@ -38,7 +38,7 @@ def pro_pripomenuti():
 
 class MyList(list):
     def __hash__(self):
-        return hash(id(self))  # nahradte za vase reseni
+        return hash(repr(self))  # nahradte za vase reseni
 
 
 def third_task():

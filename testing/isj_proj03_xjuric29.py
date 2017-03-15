@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3.6
 
 
 def first_task():
@@ -38,7 +38,7 @@ def pro_pripomenuti():
 
 class MyList(list):
     def __hash__(self):
-        return hash(id(self))  # nahradte za vase reseni
+        return hash(repr(self))  # nahradte za vase reseni
 
 
 def third_task():
