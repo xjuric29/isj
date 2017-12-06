@@ -1,0 +1,13 @@
+Do souboru, nazvaného podle konvence isj_proj04_xnovak00.py, napište definice následujících funkcí:
+
+balanced_paren(parenstr) - vrátí True, pokud je řetězec, v němž se jako závorky mohou vyskytnout znaky '()[]{}<>', správně uzávorkovaný, jinak False. Například pro řetězce '123', '[{}]', '12<4<[a]b>>5' vrátí True, pro '{1<2(>3)}' False.
+
+caesar_list(word, key) - vrátí vstupní řetězec zakódovaný podle klíče Caesarovou šifrou. Vstupní řetězec má být složený výhradně z 26 malých písmen anglické abecedy. Pokud tomu tak není, vyvolejte výjimku ValueError. Klíč má formu seznamu čísel, udávající posun v abecedě, např. [3,5,7]. Použije se cyklicky. Pokud tedy bude vstupem 'abc', a klíč [4,5], výsledkem má být 'egg'. Můžete využít itertools.cycle(). Pokud posun "přeteče" přes konec abecedy, začíná se od začátku. Pokud tedy bude vstupem 'xyz', a klíč [3,4,5,6,7], výsledkem má být 'ace'. Při volání funkce nemusí být parametr key zadán, potom se použije defaultní klíč [1,2,3]. 
+
+caesar_varnumkey - funguje stejně jako funkce caesar_list, jen klíč se při volání předává jako samostatné parametry, tedy např. caesar_varnumkey('xyz', 3, 5, 7)
+
+Jako první řádek skriptu uveďte tzv. shebang (viz https://en.wikipedia.org/wiki/Shebang_%28Unix%29), který umožní spuštění skriptu na fakultních serverech, takže např.:
+#!/usr/bin/env python3
+Nezapomeňte na dokumentační řetězce všech funkcí.
+Dále každou logickou část kódu jednotlivých funkcí okomentujte, např.
+# checking whether the item can be converted to int - try: int(item)

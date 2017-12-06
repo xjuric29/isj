@@ -1,0 +1,9 @@
+Stáhněte si soubor https://www.fit.vutbr.cz/study/courses/ISJ/private/isj_proj01_xnovak00.py a místo xnovak00 dejte do názvu svůj login.
+
+V přiložené kódu vypusťte prvky seznamů tests1 a tests2, ale pouze ty, které způsobují, že testy assert vyvolávají výjimky.
+Toto udělejte nejprve bez spouštění programu a zamyslete se, proč regulárním výrazům odpovídají a neodpovídají právě dané řetězce.
+
+Dopište definici regulárního výrazu punct tak, aby odpovídal pozici za čárkou nebo tečkou, s výjimkou případu, kdy bezprostředně před znakem a za daným místem stojí číslice (a aby tedy ani následný test assert nevypisoval chybu).
+
+Nic jiného v kódu neměňte (i kdyby se vám nelíbil nedostatek komentářů apod.).
+Cvičné hodnocení můžete vyzkoušet v systému http://athena3.fit.vutbr.cz:8088/, ale pro získání bodů za projekt musíte výsledný skript (se správným názvem) odevzdat prostřednictví WIS.
