@@ -1,4 +1,4 @@
-# ISJ Skriptovcí jazyky
+# ISJ - Skriptovcí jazyky
 FIT VUT
 
 ### 1. úkol
