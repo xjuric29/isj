@@ -1,4 +1,5 @@
 # ISJ Skriptovcí jazyky
+FIT VUT
 
 ### 1. úkol
 * Regexp
